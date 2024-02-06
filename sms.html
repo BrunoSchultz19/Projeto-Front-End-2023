@@ -1,1 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
 
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMS</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="esquerda">
+      <a href="index.html">
+        <img src="img/logo.png" height="36" width="145" alt="Logo">
+      </a>
+    </div>
+    
+    <header>
+      <ul class="ul">
+        <li class="li"><a href="index.html">Home</a></li>
+        <li class="li"><a href="cpaas.html">CPaaS</li>
+        <li class="li"><a href="#">Serviços</a>
+          <div class="sub-menu">
+            <ul>
+              <li class="li"><a href="sms.html">SMS Programável</a></li>
+              <li class="li"><a href="nmr_masc.html">Número de Mascára</a></li>
+              <li class="li"><a href="google_verefied.html">Google Verified Calls</a></li>
+              <li class="li"><a href="2fa.html">2FA</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="li"><a class="btn" href="area_cliente.html">Área do cliente</a></li>
+        <div class="close-icon" onclick="closeMenu()">
+          <script src="https://kit.fontawesome.com/54b3d82f85.js" crossorigin="anonymous"></script>
+          <i class="fa-sharp fa-solid fa-xmark"></i>
+        </div>
+        <div>
+          <input type="checkbox" class="checkbox" id="chk" />
+    
+          <label class="label" for="chk">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+            <div class="ball"></div>
+          </label>
+        </div>
+      </ul>
+    </header>
+    <div class="menu-icon" onclick="openMenu()">
+      <script src="https://kit.fontawesome.com/54b3d82f85.js" crossorigin="anonymous"></script>
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </nav>
+  <section class="banner">
+    <div class="texto">
+      <h1 class="titulo">O que é SMS Programável?
+      </h1>
+    </div>
+  </section>
+  <section class="sms">
+    <div class="container">
+      <div class="sms-text">
+        <h3>Conecte-se com seus clientes:</h3>
+        <p>É muito provável que você já tenha recebido uma
+          mensagem de texto de uma empresa ou organização.
+          Com uma API, qualquer empresa pode enviar mensagens
+          de texto e impactar clientes, prospects ou fornecedores
+          como parte de seu processo comercial.
+          Com essa ferramenta você envia mensagens de SMS com
+          as informações que o seu cliente precisa e com a
+          segurança, a velocidade e a confiabilidade que você
+          espera.</p>
+        <hr>
+        <h3>Benefícios:</h3>
+        <p>• Comunicação rápida, efetiva e escalável.</p>
+
+        <p>• Alta taxa de entrega e leitura.</p>
+
+        <p>• Personalização de data, hora e conteúdo.</p>
+
+        <p>• Baixo custo.</p>
+
+        <p>• Interação bidirecional: recebimento de respostas.</p>
+
+        <p>• Agendamento de campanhas.</p>
+
+        <p>• Acompanhamento de métricas e relatórios.</p>
+
+        <p>• Plataforma user-friendly.</p>
+      </div>
+      <div class="sms-img">
+        <img src="img/sms.png" alt="SMS">
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-contacts">
+        <a href="index.html">
+          <img src="img/logo.png" height="36" width="145" alt="Logo">
+        </a>
+        <div class="links">
+          <a href="https://www.facebook.com/TelecallBr" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-facebook fa-xl" style="color: #ffffff;"></i>
+          </a>
+          <a href="https://www.instagram.com/telecallbr/" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i>
+          </a>
+          <a href="https://www.linkedin.com/company/telecall/" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff;"></i>
+          </a>
+        </div>
+      </div>
+      <ul class="footer-list">
+        <li>
+          <h3 style="font-weight: bold;">Escritórios</h3> </br>
+          <h4 style="font-weight: bold;">Brasil</h4> </br>
+          <p>Centro empresarial Mario Henrique Simonsen
+            Av. das Américas, 3434 | Bloco 1, Sala 505
+            Barra da Tijuca | Rio de Janeiro, RJ</p> </br>
+          <h4 style="font-weight: bold;">Estados Unidos</h4> </br>
+          <p>848 Brickell Av – Suite 1235 | Miami, Florida, USA – 33131</p> </br>
+          <h4 style="font-weight: bold;">Inglaterra</h4> </br>
+          <p>8 Devonshire Squae, Londom EC2M 4YJ</p>
+        </li>
+      </ul>
+      <ul class="footer-list">
+        <li>
+          <h3 style="font-weight: bold;">Contato</h3> </br>
+          <p>Email: suporte@telecall.com</p> </br>
+          <p>Tel: (21) 3030-1010</p>
+        </li>
+      </ul>
+      <div class="footer-subscribe">
+        <h3>Fale conosco</h3>
+        <p>Nos mande um email para solucionar suas dúvidas!</p>
+        <div class="input-group">
+          <input type="email" id="email">
+          <button>
+            <i class="fa-regular fa-envelope"></i>
+          </button>
+        </div>
+        <div class="footer-copyright">
+          Copyright &#169
+          2018 Telecall. Todos os direitos reservados.
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
