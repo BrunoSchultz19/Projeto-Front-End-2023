@@ -1,1 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
 
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Inicial</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="esquerda">
+      <a href="index.html">
+        <img src="img/logo.png" height="36" width="145" alt="Logo">
+      </a>
+    </div>
+    <header>
+      <ul class="ul">
+        <li class="li"><a href="index.html">Home</a></li>
+        <li class="li"><a href="cpaas.html">CPaaS</li>
+        <li class="li"><a href="#">Serviços</a>
+          <div class="sub-menu">
+            <ul>
+              <li class="li"><a href="sms.html">SMS Programável</a></li>
+              <li class="li"><a href="nmr_masc.html">Número de Mascára</a></li>
+              <li class="li"><a href="google_verefied.html">Google Verified Calls</a></li>
+              <li class="li"><a href="2fa.html">2FA</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="li"><a class="btn" href="area_cliente.html">Área do cliente</a></li>
+        <div class="close-icon" onclick="closeMenu()">
+          <script src="https://kit.fontawesome.com/54b3d82f85.js" crossorigin="anonymous"></script>
+          <i class="fa-sharp fa-solid fa-xmark"></i>
+        </div>
+        <div>
+          <input type="checkbox" class="checkbox" id="chk" />
+    
+          <label class="label" for="chk">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+            <div class="ball"></div>
+          </label>
+        </div>
+      </ul>
+    </header>
+    <div class="menu-icon" onclick="openMenu()">
+      <script src="https://kit.fontawesome.com/54b3d82f85.js" crossorigin="anonymous"></script>
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </nav>
+  <section class="banner">
+    <div class="textob">
+      <h1 class="titulob">Telecall
+      </h1>
+      <p>SUA ESCOLHA INTELIGENTE!</p>
+    </div>
+  </section>
+  <section class="clientes">
+    <div class="container">
+      <br>
+      <h3>Alguns dos Nossos Clientes</h3> </br>
+      <div class="cards">
+        <div class="card-item">
+          <img src="img/mcdonalds-logo.png" alt="">
+          <p class="nome-user">- Kathy Whalen, Project Manager</p>
+          <p class="depoimento">"O Mc Donald`s conheceu a Telecall durante os Jogos Olímpicos Rio 2016 para um pedido
+            urgente de um evento de mídia ao vivo, quatro dias mais tarde. A Telecall foi extremamente proﬁssional...
+            Nós simplesmente não teríamos conseguido sem a parceria da equipe Telecall. Só usaremos eles em eventos no
+            Rio.”</p>
+        </div>
+        <div class="card-item">
+          <img src="img/logo-maratona.png" alt="">
+          <p class="nome-user">- Pedro Pereira, Diretor de Projetos</p>
+          <p class="depoimento">"A operação foi um sucesso, a transmissão correu como desejado, graças à Telecall.
+            Agradecemos a atenção, o cuidado e o esforço de toda a equipe com o nosso produto... Muito obrigado e
+            parabéns pelo excelente trabalho. Para nós, foi um novo padrão de entrega e operação excepcional"</p>
+        </div>
+        <div class="card-item">
+          <img src="img/logo-rock-in-rio.png" alt="">
+          <p class="nome-user">- Laila Dias, Account Executive</p>
+          <p class="depoimento">“É com o coração transbordando de orgulho e gratidão que concluímos uma edição do Rock
+            in Rio. Toda a magia que vivemos nesses 7 dias de festival jamais seria possível sem a participação de
+            marcas e profissionais como vocês que acreditaram na gente e ajudaram a tornar esse sonho realidade. A
+            edição 2017 ficará para a história e agora nosso desafio é ainda maior.”</p><br>
+        </div>
+      </div>
+  </section>
+  <section class="telefonia">
+    <div class="container">
+      <div class="texto-telefonia">
+        <h3>Sobre Nós</h3>
+        <p>A Telecall é uma operadora de telecomunicações brasileira que oferece a seus clientes o mais alto padrão de
+          qualidade, velocidade e acessibilidade em soluções de comunicação. Serviços que incluem uma ampla gama de
+          valores agregados, oferecendo aos clientes operações mais produtivas, inovadoras e eficazes. Com mais de 20
+          anos de experiência na indústria global, a Telecall hoje é sinônimo de qualidade e eficiência.</p>
+      </div>
+      <div class="telefonia-img">
+        <img src="img/cartao.png" alt="">
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="mapa">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.693758573593!2d-43.34921262524221!3d-22.998286141146366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda145f30c691%3A0x2e418e5408fdfad4!2sCentro%20Empresarial%20Mario%20Henrique%20Simonsen!5e0!3m2!1spt-BR!2sbr!4v1686979337085!5m2!1spt-BR!2sbr"
+        width="95%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div> <br>
+  </section>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-contacts">
+        <a href="index.html">
+          <img src="img/logo.png" height="36" width="145" alt="Logo">
+        </a>
+        <div class="links">
+          <a href="https://www.facebook.com/TelecallBr" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-facebook fa-xl" style="color: #ffffff;"></i>
+          </a>
+          <a href="https://www.instagram.com/telecallbr/" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i>
+          </a>
+          <a href="https://www.linkedin.com/company/telecall/" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff;"></i>
+          </a>
+        </div>
+      </div>
+      <ul class="footer-list">
+        <li>
+          <h3 style="font-weight: bold;">Escritórios</h3> </br>
+          <h4 style="font-weight: bold;">Brasil</h4> </br>
+          <p>Centro empresarial Mario Henrique Simonsen
+            Av. das Américas, 3434 | Bloco 1, Sala 505
+            Barra da Tijuca | Rio de Janeiro, RJ</p> </br>
+          <h4 style="font-weight: bold;">Estados Unidos</h4> </br>
+          <p>848 Brickell Av – Suite 1235 | Miami, Florida, USA – 33131</p> </br>
+          <h4 style="font-weight: bold;">Inglaterra</h4> </br>
+          <p>8 Devonshire Squae, Londom EC2M 4YJ</p>
+        </li>
+      </ul>
+      <ul class="footer-list">
+        <li>
+          <h3 style="font-weight: bold;">Contato</h3> </br>
+          <p>Email: suporte@telecall.com</p> </br>
+          <p>Tel: (21) 3030-1010</p>
+        </li>
+      </ul>
+      <div class="footer-subscribe">
+        <h3>Fale conosco</h3>
+        <p>Nos mande um email para solucionar suas dúvidas!</p>
+        <div class="input-group">
+          <input type="email" id="email">
+          <button>
+            <i class="fa-regular fa-envelope"></i>
+          </button>
+        </div>
+        <div class="footer-copyright">
+          Copyright &#169
+          2018 Telecall. Todos os direitos reservados.
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
