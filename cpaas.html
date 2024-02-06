@@ -1,1 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
 
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CPaaS</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="esquerda">
+      <a href="index.html">
+        <img src="img/logo.png" height="36" width="145" alt="Logo">
+      </a>
+    </div>
+    <
+    <header>
+      <ul class="ul">
+        <li class="li"><a href="index.html">Home</a></li>
+        <li class="li"><a href="cpaas.html">CPaaS</li>
+        <li class="li"><a href="#">Serviços</a>
+          <div class="sub-menu">
+            <ul>
+              <li class="li"><a href="sms.html">SMS Programável</a></li>
+              <li class="li"><a href="nmr_masc.html">Número de Mascára</a></li>
+              <li class="li"><a href="google_verefied.html">Google Verified Calls</a></li>
+              <li class="li"><a href="2fa.html">2FA</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="li"><a class="btn" href="area_cliente.html">Área do cliente</a></li>
+        <div class="close-icon" onclick="closeMenu()">
+          <script src="https://kit.fontawesome.com/54b3d82f85.js" crossorigin="anonymous"></script>
+          <i class="fa-sharp fa-solid fa-xmark"></i>
+        </div>
+        <div>
+          <input type="checkbox" class="checkbox" id="chk" />
+    
+          <label class="label" for="chk">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+            <div class="ball"></div>
+          </label>
+        </div>
+      </ul>
+    </header>
+    <div class="menu-icon" onclick="openMenu()">
+      <script src="https://kit.fontawesome.com/54b3d82f85.js" crossorigin="anonymous"></script>
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </nav>
+  <section class="banner">
+    <div class="texto">
+      <h1 class="titulo">CPaaS
+      </h1>
+      <h2 class="subtitulo">
+        Com sua escalabilidade, flexibilidade, autenticação e segurança aprimoradas, está revolucionando o modo como as
+        empresas habilitadas em nuvem implementam comunicações de voz, SMS e vídeo.
+      </h2>
+    </div>
+  </section>
+  <section class="cpaas">
+    <div class="container">
+      <div class="cpaas-text">
+        <h3>Afinal, O que é?</h3>
+        <p>É uma solução de software de comunicação que atua
+          como uma base sobre a qual desenvolvedores podem
+          integrar uma variedade de aplicativos.
+          Métodos de comunicação típicos, como voz, chamadas
+          de vídeo ou mensagens de texto SMS, podem ser
+          incorporados em outros sistemas por meio de APIs que
+          se conectam à plataforma CPaaS.
+          Essas APIs permitem que as empresas expandam suas
+          ofertas sem a necessidade de hardware ou software
+          adicional.</p>
+        <hr>
+        <h3>
+          Transformação Digital:
+        </h3>
+        <p>• Expectativa de crescimento estimado de
+          <b>$ 8,2 bilhões</b> em 2021
+        </p>
+        <p>• <b>85%</b> dos profissionais se conectam de
+          maneira diferente com colegas e clientes do que
+          faziam há apenas 5 anos.</p>
+        <p>• As receitas de CPaaS estão crescendo mais de
+          <b>40%</b> ao ano.
+        </p>
+        <p>• <b>CPaaS</b> já ultrapassou o mercado de <b>UCaaS</b>
+          (Unified Communication as a Service).
+        </p>
+        <p>• Marcas que estão em <b>múltiplos canais</b>
+          melhoram a experiência do usuário e aumentam
+          seus resultados.</p>
+      </div>
+      <div class="cpaas-img">
+        <img src="img/cpaas.png" alt="cpaas">
+      </div>
+    </div>
+  </section>
+
+
+  </section>
+  <section class="servicos">
+    <div class="container">
+      <h3>Nossos Serviços</h3>
+      <div class="rows-cards">
+        <a href="sms.html">
+          <div class="row-card-item">
+            <img src="img/sms-icon.png" alt="">
+            <p class="nome-servico"><strong>SMS Programável</strong></p>
+            <p class="descricao-servico">SMS é a forma mais rápida, eficiente e de baixo custo para se comunicar com
+              seus
+              clientes.</p>
+          </div>
+        </a>
+        <a href="nmr_masc.html">
+          <div class="row-card-item">
+            <img src="img/numero-icon.png" alt="">
+            <p class="nome-servico"><strong>Número de Máscara</strong></p>
+            <p class="descricao-servico">Garanta aos seus clientes a capacidade de fazer chamadas e enviar mensagens sem
+              expor seus números de telefone pessoais.</p>
+          </div>
+        </a>
+        <a href="google_verefied.html">
+          <div class="row-card-item">
+            <img src="img/gvc-icon.png" alt="">
+            <p class="nome-servico"><strong>Google Verefied Calls</strong></p>
+            <p class="descricao-servico">Estabeleça confiança, agilize a conexão e melhore a experiência do cliente.</p>
+          </div>
+        </a>
+        <a href="2fa.html">
+          <div class="row-card-item">
+            <img src="img/2fa-icon.png" alt="">
+            <p class="nome-servico"><strong>2FA</strong></p>
+            <p class="descricao-servico">Ofereça segurança aprimorada para seus clientes, reduza casos de fraude e
+              invasões e evite o acesso a dados por invasores.</p>
+          </div>
+        </a>
+      </div>
+  </section>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-contacts">
+        <a href="index.html">
+          <img src="img/logo.png" height="36" width="145" alt="Logo">
+        </a>
+        <div class="links">
+          <a href="https://www.facebook.com/TelecallBr" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-facebook fa-xl" style="color: #ffffff;"></i>
+          </a>
+          <a href="https://www.instagram.com/telecallbr/" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i>
+          </a>
+          <a href="https://www.linkedin.com/company/telecall/" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff;"></i>
+          </a>
+        </div>
+      </div>
+      <ul class="footer-list">
+        <li>
+          <h3 style="font-weight: bold;">Escritórios</h3> </br>
+          <h4 style="font-weight: bold;">Brasil</h4> </br>
+          <p>Centro empresarial Mario Henrique Simonsen
+            Av. das Américas, 3434 | Bloco 1, Sala 505
+            Barra da Tijuca | Rio de Janeiro, RJ</p> </br>
+          <h4 style="font-weight: bold;">Estados Unidos</h4> </br>
+          <p>848 Brickell Av – Suite 1235 | Miami, Florida, USA – 33131</p> </br>
+          <h4 style="font-weight: bold;">Inglaterra</h4> </br>
+          <p>8 Devonshire Squae, Londom EC2M 4YJ</p>
+        </li>
+      </ul>
+      <ul class="footer-list">
+        <li>
+          <h3 style="font-weight: bold;">Contato</h3> </br>
+          <p>Email: suporte@telecall.com</p> </br>
+          <p>Tel: (21) 3030-1010</p>
+        </li>
+      </ul>
+      <div class="footer-subscribe">
+        <h3>Fale conosco</h3>
+        <p>Nos mande um email para solucionar suas dúvidas!</p>
+        <div class="input-group">
+          <input type="email" id="email">
+          <button>
+            <i class="fa-regular fa-envelope"></i>
+          </button>
+        </div>
+        <div class="footer-copyright">
+          Copyright &#169
+          2018 Telecall. Todos os direitos reservados.
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
